@@ -1,0 +1,180 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.55in,right=0.55in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tabularx}
+
+\definecolor{primary}{HTML}{0A66C2}
+\definecolor{dark}{HTML}{1A1A1A}
+\definecolor{subtle}{HTML}{444444}
+
+% Section formatting
+\titleformat{\section}
+  {\large\bfseries\color{dark}}{}{0em}{}
+  [\vspace{-6pt}\textcolor{primary}{\rule{\linewidth}{1.2pt}}\vspace{2pt}]
+
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+\setlist[itemize]{noitemsep, topsep=1pt, leftmargin=14pt}
+
+\hypersetup{colorlinks=true, urlcolor=primary, linkcolor=primary}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+% \rolerow{Title}{Company}{Date}
+\newcommand{\rolerow}[3]{%
+  \noindent\textbf{#1} \hfill \textit{\color{subtle}#3}\\
+  \textcolor{subtle}{#2}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% ─── HEADER ───────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries\color{dark} PRIYAVRATT SHARMA}\\[3pt]
+  {\color{primary}\large\bfseries Data Analyst \quad $|$ \quad Talent Acquisition \quad $|$ \quad Python Developer}\\[4pt]
+  \small
+  +91-70176-96767 \quad $|$ \quad
+  \href{mailto:priyavratt02@gmail.com}{priyavratt02@gmail.com} \quad $|$ \quad
+  \href{https://www.linkedin.com/in/priyavratt-sharma}{linkedin.com/in/priyavratt-sharma} \quad $|$ \quad
+  Aligarh, U.P., India
+\end{center}
+
+\vspace{2pt}
+
+% ─── PROFESSIONAL SUMMARY ─────────────────────────────────────────────────────
+\section*{Professional Summary}
+Versatile B.Tech (IT) 2026 graduate with \textbf{2+ years of internship experience} spanning data analytics, talent acquisition, HR operations, and web development. Hands-on expertise in \textbf{Python, Power BI, SQL, LinkedIn Recruiter, and Naukri ResdEx} — with a proven track record of \textbf{end-to-end candidate sourcing, campus hiring, and KPI-driven reporting}. Adept at cross-functional collaboration, stakeholder communication, and delivering results in fast-paced environments. Actively seeking full-time opportunities in \textbf{Data Analytics, HR Tech, or Program Management}.
+
+% ─── EXPERIENCE ───────────────────────────────────────────────────────────────
+\section*{Professional Experience}
+
+% ── GrowwthX ──
+\vspace{3pt}
+\rolerow{Talent Acquisition \& Tech Solution Intern}{GrowwthX}{Mar 2025 -- Sep 2025 \textit{(7 mos)}}
+\begin{itemize}
+  \item Managed \textbf{end-to-end talent acquisition} for multiple hiring mandates — sourcing, screening, coordinating interviews, and closing candidates across technical and non-technical roles
+  \item \textbf{Sourced and hired candidates} from campus drives at \textbf{AMU (Aligarh Muslim University)} and \textbf{ITM Job Fair}, coordinating logistics, student outreach, and shortlisting pipelines
+  \item Supported \textbf{talent acquisition for Accenture}, managing candidate pipelines, resume screening, and interview scheduling in alignment with client hiring SLAs
+  \item Leveraged \textbf{LinkedIn Recruiter} and \textbf{Naukri ResdEx} for Boolean search-based sourcing, profile mapping, and building passive candidate pools across domains
+  \item Analysed \textbf{recruitment funnel metrics} (sourcing conversion, offer-to-join ratio, TAT) using Excel and Python to surface hiring bottlenecks and improve process efficiency
+  \item Built and optimised \textbf{responsive WordPress websites} for clients; improved page-load performance and content structure
+  \item Maintained \textbf{99\%+ data accuracy} on high-volume ATS records and candidate databases — demonstrating strong organisational discipline
+\end{itemize}
+
+\vspace{5pt}
+
+% ── EduXTrade ──
+\rolerow{Tech Solution Intern (Data Analytics \& Reporting)}{EduXTrade}{Mar 2025 -- Nov 2025 \textit{(9 mos)}}
+\begin{itemize}
+  \item Developed \textbf{Python-based data pipelines} and automated reporting workflows, reducing manual effort by \textasciitilde30\%
+  \item Built \textbf{Power BI dashboards (DAX)} to track operational KPIs — adopted by the core team for weekly performance reviews
+  \item Designed and maintained \textbf{project trackers, documentation, and status reports} for cross-functional teams
+  \item Prepared \textbf{executive-level presentations} summarising analytical insights and program performance for leadership
+  \item Collaborated across product, operations, and tech verticals in a hybrid setup, ensuring on-time delivery of milestones
+\end{itemize}
+
+\vspace{5pt}
+
+% ── Internshala ──
+\rolerow{Python Developer Intern}{Internshala}{Nov 2023 \textit{(1 mo)}}
+\begin{itemize}
+  \item Built a GUI-based Fantasy Cricket app (Python, Tkinter) with real-time player data integration and dynamic team-selection logic
+\end{itemize}
+
+\vspace{5pt}
+
+% ── CodSoft ──
+\rolerow{Python Developer Intern}{CodSoft}{Sep 2023 -- Nov 2023 \textit{(3 mos)}}
+\begin{itemize}
+  \item Delivered 3 Python projects (To-Do List Manager, Scientific Calculator, Password Generator) applying OOP, file handling, and modular design
+\end{itemize}
+
+% ─── PROJECTS ─────────────────────────────────────────────────────────────────
+\section*{Key Projects}
+
+\noindent\textbf{Recruitment Analytics Dashboard} \textit{| Power BI, Excel, Python}
+\begin{itemize}
+  \item Built an end-to-end \textbf{hiring funnel dashboard} tracking sourcing channel efficiency, time-to-fill, offer acceptance rate, and drop-off stages across multiple job roles
+  \item Enabled \textbf{data-driven hiring decisions} by visualising LinkedIn Recruiter vs.\ Naukri vs.\ campus sourcing ROI in a single Power BI report
+  \item Reduced manual MIS effort by \textbf{35\%} by automating weekly recruitment status reports using Python (Pandas, openpyxl)
+\end{itemize}
+
+\vspace{4pt}
+\noindent\textbf{Supply Chain KPI Dashboard} \textit{| Power BI, DAX, Excel}
+\begin{itemize}
+  \item Designed a multi-page dashboard tracking delivery timelines, quality defects, and cost overruns for a simulated manufacturing supply chain
+  \item Implemented \textbf{DAX-based risk flagging} to highlight milestones at risk, reducing stakeholder reporting time by 40\%
+\end{itemize}
+
+\vspace{4pt}
+\noindent\textbf{Community Air Quality Monitor} \textit{| Python, Pandas, Matplotlib, SQL}
+\begin{itemize}
+  \item Built a real-time \textbf{AQI data pipeline} ingesting public sensor APIs, with automated threshold-breach alerts sent via email — direct civic health impact
+\end{itemize}
+
+\vspace{4pt}
+\noindent\textbf{Live Web Projects} \textit{| WordPress, WooCommerce, SEO}
+\begin{itemize}
+  \item \href{https://carakara.co}{carakara.co} — Brand website with on-page SEO and product showcase
+  \item \href{https://kalachikan.com}{kalachikan.com} — Full e-commerce store with WooCommerce, product listings, and checkout flow
+\end{itemize}
+
+% ─── SKILLS ───────────────────────────────────────────────────────────────────
+\section*{Skills}
+
+\noindent
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\textbf{Talent Acquisition:}    & LinkedIn Recruiter, Naukri ResdEx, Boolean Search, Campus Hiring, Job Fair Sourcing, ATS Management, Candidate Pipeline Management \\[2pt]
+\textbf{Data \& BI Tools:}      & Power BI (DAX), Tableau, MySQL, MS Excel (Advanced), Python (Pandas, NumPy, Matplotlib, openpyxl) \\[2pt]
+\textbf{Languages:}             & Python, SQL, C, R, HTML, CSS \\[2pt]
+\textbf{Web \& CMS:}            & WordPress, WooCommerce, SEO \\[2pt]
+\textbf{Concepts:}              & Data Cleaning, EDA, ETL, KPI Tracking, Recruitment Analytics, Dashboard Design, Automated Reporting \\[2pt]
+\textbf{Tools \& Platforms:}    & Git, MS Office Suite, Django (basics) \\[2pt]
+\textbf{Soft Skills:}           & Cross-functional Collaboration, Stakeholder Communication, Time Management, Attention to Detail \\
+\end{tabularx}
+
+% ─── EDUCATION ────────────────────────────────────────────────────────────────
+\section*{Education}
+
+\rolerow{B.Tech -- Information Technology}{Aligarh College of Engineering \& Technology (ACET), AKTU}{2022 -- 2026}\\
+\textit{Coursework: Data Structures, DBMS, Python Programming, Web Technologies, Software Engineering}
+
+\vspace{4pt}
+\rolerow{Class XII -- CBSE}{Wisdom Public School}{79\%}
+
+\vspace{4pt}
+\rolerow{Class X -- CBSE}{Wisdom Public School}{90.6\%}
+
+% ─── CERTIFICATIONS ───────────────────────────────────────────────────────────
+\section*{Certifications}
+\begin{itemize}
+  \item \textbf{Deloitte Australia} -- Cyber Job Simulation \textit{(Forage, Feb 2026)}
+  \item \textbf{Deloitte Australia} -- Technology Job Simulation \textit{(Forage, Feb 2026)}
+  \item \textbf{Programming with Python} -- Internshala \textit{(Oct--Dec 2023)}
+  \item \textbf{IBM} -- Working in a Digital World: Professional Skills
+\end{itemize}
+
+% ─── KEY ACHIEVEMENTS ─────────────────────────────────────────────────────────
+\section*{Key Achievements}
+\begin{itemize}
+  \item \textbf{Sourced \& placed candidates} at AMU and ITM Job Fair; supported Accenture's hiring pipeline end-to-end
+  \item \textbf{Deployed 2 live client websites} (\href{https://carakara.co}{carakara.co}, \href{https://kalachikan.com}{kalachikan.com}) — managed full project lifecycle
+  \item Power BI dashboards \textbf{adopted by operations teams} for weekly KPI reporting — measurable business impact
+  \item \textbf{Grew LinkedIn to 1,000+ followers}; posts reaching \textbf{3,700+ impressions} — consistent professional content creation
+  \item Maintained \textbf{90.6\% in Class X}; active campus contributor via MetaSpace ambassadorship
+\end{itemize}
+
+% ─── VOLUNTEERING ─────────────────────────────────────────────────────────────
+\section*{Volunteering \& Interests}
+\textbf{Campus Ambassador} -- MetaSpace \hfill \textit{Feb 2023 -- May 2023}\\
+\textit{Organised campus tech events and community outreach; honed coordination and people management skills}
+
+\vspace{4pt}
+\textbf{Interests:} Talent Analytics \quad $|$ \quad Data Storytelling \quad $|$ \quad Open-Source Contribution \quad $|$ \quad eSports
+
+\end{document}
